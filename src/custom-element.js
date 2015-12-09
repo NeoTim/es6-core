@@ -1,5 +1,3 @@
-
-
 export class CustomElement {
 
   constructor(tagName, template) {
@@ -22,7 +20,6 @@ export class CustomElement {
     element.appendChild(content);
   }
 }
-
 
 function toDomNode(string) {
   let div;
